@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:url(./assets/bg.jpg) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-color: #00000066 !important;
+  background-blend-mode: color !important;
+  min-height:90vh;
 }
 
 code {
