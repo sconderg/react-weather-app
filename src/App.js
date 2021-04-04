@@ -87,7 +87,8 @@ class App extends React.Component {
         celsius:this.calCel(response.main.temp),
         temp_min:this.calCel(response.main.temp_min),
         temp_max:this.calCel(response.main.temp_max),
-        description:response.weather[0].description
+        description:response.weather[0].description,
+        error:false
       });
 
       this.getWeatherIcon(this.weatherIcon,response.weather[0].id);

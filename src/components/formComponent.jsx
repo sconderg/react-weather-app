@@ -10,7 +10,6 @@ function error() {
 }
 
 const form = props => {
-    console.log(props.error)
     return (
         <div className="container">
             {props.error ? error() : null}
@@ -22,7 +21,7 @@ const form = props => {
                     <div className="col-md-3">
                     <input type="text" className="form-control" placeholder="Country" name="country" autoComplete="off"/>
                     </div>
-                    <div className="col-md-3 mt-md-0 py-3 text-md-left">
+                    <div className="col-md-3 mt-md-0 text-md-left">
                         <button className="btn btn-danger">Get Weather</button>
                     </div>
                 </div>
